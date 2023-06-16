@@ -1,0 +1,25 @@
+.nav-link{
+    font-size: 20px;
+    margin:0 20px ;
+    position: relative;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 85%;
+    width: 0;
+    height: 3px;
+    transition: all 0.5s linear !important;
+}
+.nav-link:hover::before{
+    width: 100%;
+    background-color:orange;
+    
+}
+.navbar-brand{
+    font-family: 'Merienda', cursive;
+}
+#navButton{
+    background-color: transparent !important;
+}

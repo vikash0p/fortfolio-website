@@ -1,0 +1,38 @@
+.headerfont{
+    font-family: 'Merienda', cursive;
+}
+#svgimage{
+    
+    height: 90vh;
+    background-image: url(../images/graph.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+    
+    
+   
+}
+#headerImage{
+    
+    height: 300px;
+    width: 300px;
+    margin-top: 130px;
+    
+    animation: svg_animation ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+   
+}
+@keyframes svg_animation{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-20px);
+        
+    }100%{
+        transform: translatey(0px);
+    }
+}

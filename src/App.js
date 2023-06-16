@@ -9,39 +9,28 @@ import Navbar from './components/Navbar';
 import Resume from './components/Resume';
 import Testimonial from './components/Testimonial';
 import { selectAllTheme } from './features/ModeSlice';
-import { useEffect } from 'react';
-import { PacmanLoader} from 'react-spinners';
+
+
 
 const App = () => {
-  const[loading,setLoading]=useState(false)
-  const[color ,setColor]=useState('')
-  useEffect(()=>{
-    setColor("orange");
-    setLoading(true)
-    setTimeout(()=>{
-      setLoading(false)
-    }, 8000)
-  },[])
+ 
  
  const mode= useSelector(selectAllTheme)
  
  const light={
-  background:"white",
+  background:"#E5E0FF",
   color:"black"
  }
  const dark={
-    background :"black",
+    background :"#4E6E81",
     color:"white"
  }
 
 
   return (
     <>
-      {
-        loading  ? 
-        <div id='loader'>
-            <PacmanLoader color={color} loading={loading} size={50}  />
-        </div>:
+   
+        
           <div style={mode? light:dark}>
           <BrowserRouter>
           <Navbar/>
@@ -55,7 +44,7 @@ const App = () => {
           </BrowserRouter>
         </div>
 
-      }
+   
    
     
   

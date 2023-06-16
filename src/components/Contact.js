@@ -26,7 +26,7 @@ const Contact = () => {
                         </div>
                         <div className="row">
                             <div className="col-12 col-sm-12 col-md-6 col-6">
-                                {/* <img src={img} alt="" className='img-fluid' height={'500px'} /> */}
+                                 <img src={img} alt="" className='img-fluid' height={'500px'} /> 
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-6 align-self-center">
 

@@ -35,7 +35,7 @@ const About = () => {
                                         <p className="lead">Componies  <br /> worked</p>   
                                     </span>
                                 </div>
-                                <p class=" mt-4 px-4">
+                                <p class=" fs-5 mt-4 px-4">
                                     web developer with extensive knowledge and years of experience.<br />  working in webtechnologies and ui/ux
                                     design,delivering <br /> quality work.
                                 </p>
@@ -49,13 +49,25 @@ const About = () => {
                                         <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Interactive frotend developer <span className=''>as per design</span></p>
                                         </li>
                                         <li>
-                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>React js</p>
+                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>JavaScript Frameworks eg.Reactjs & Nextjs</p>
                                         </li>
                                         <li>
                                         <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Redux Redux-toolkit for state management</p>
                                         </li>
                                         <li>
                                         <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Building REST API</p>
+                                        </li>
+                                        <li>
+                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Cross-Browser Compatibility</p>
+                                        </li>
+                                        <li>
+                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Performance Optimization</p>
+                                        </li>
+                                        <li>
+                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Version Control and Collaboration</p>
+                                        </li>
+                                        <li>
+                                        <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>Mobile-Friendly Development</p>
                                         </li>
                                         <li>
                                         <p className='lead '> <i className="fa-solid fa-circle text-warning mx-4 "></i>managing Database</p>

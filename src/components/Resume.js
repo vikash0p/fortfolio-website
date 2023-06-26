@@ -78,26 +78,25 @@ const Resume = () => {
                                             <h5 style={{ color: "orange" }}>  <i className="fa-solid fa-circle text-warning"></i> PERSONAL PORTFOLO WEBSITE</h5>
                                             <h6 className="lead mx-4">Technologies used React js,Bootstrap, redux-toolkit</h6>
                                             <p className="lead mx-4">A personal portfolio website to showcase all my details and project at one place</p>
-                                            <NavLink className=" fs-5 ms-4 py-0 link-dark" to="https://vikashp.netlify.app/" >Portfolio</NavLink>
-
+                                           
                                         </div>
                                         <div className='mb-5'>
                                             <h5 style={{ color: "orange" }}>  <i className="fa-solid fa-circle text-warning px-1"></i>TODO APP</h5>
                                             <h6 className="lead mx-4">Technologies used React js,Bootstrap, redux-toolkit</h6>
                                             <p className="lead mx-4">This webiste is store your data in one app.</p>
-                                            <NavLink className=" fs-5 ms-4 py-0 link-dark" to="https://tdoo.netlify.app/" >TodoApp</NavLink>
+                                            
                                         </div>
                                         <div className='mb-5'>
                                             <h5 style={{ color: "orange" }}>  <i className="fa-solid fa-circle text-warning px-1"></i>E-COMMERCE WEBSITE</h5>
                                             <h6 className="lead mx-4">Technologies used React js,Bootstrap, redux-toolkit</h6>
                                             <p className="lead mx-4">Online  e-commerce websie for showcasing and selling products and add to cart</p>
-                                            <NavLink className=" fs-5 ms-4 py-0 link-dark" to="https://showfit.netlify.app/" >E-commerce Website</NavLink>
+                                            
                                         </div>
                                         <div className='mb-5'>
                                             <h5 style={{ color: "orange" }}>  <i className="fa-solid fa-circle text-warning px-1"></i>Youtube Clone</h5>
                                             <h6 className="lead mx-4">Technologies used React js,Bootstrap, redux-toolkit</h6>
                                             <p className="lead mx-4">React Youtube is a simple component  at integrating with the youtube Api...</p>
-                                            <NavLink className=" fs-5 ms-4 py-0 link-dark" to="https://youtebe.netlify.app/" >YouTube Clone</NavLink>
+                                           
                                         </div>
                                     </div>
                                     <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabIndex="0">
